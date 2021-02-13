@@ -9,6 +9,7 @@ data "aws_vpc" "vpc-selected" {
 
 resource "aws_vpc" "vpc1" {
    id = data.aws_vpc.vpc-selected.id
+   cidr_block = data.aws_vpc.vpc-selected.cidr_block
    tags = var.mytags
 }
 
