@@ -17,10 +17,10 @@ variable "subnet-pub" {
    type = string
    description = "public sunet"
 }
-variable "subnet-priv" {
+/* variable "subnet-priv" {
    type = string
    description = "private sunet"
-}
+} */
 
 
 variable "my-tags" {
