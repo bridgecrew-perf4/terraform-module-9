@@ -6,11 +6,13 @@ variable "cidr_block" {
 variable "subnet-pub" {
    type = string
    description = "public sunet"
+   default =   "10.0.100.0/24"
 }
 
 variable "subnet-priv" {
    type = string
    description = "private sunet"
+   default =   "10.0.10.0/24"
 }
 
 variable "my-tags" {
