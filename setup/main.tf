@@ -1,7 +1,6 @@
 
-provider {
-   name  =  "aws"
-   version => "0.12.2"
+provider "aws" {
+   version = "=> 0.12.2"
    region = var.region
 }
 
