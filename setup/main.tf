@@ -13,7 +13,6 @@ module "odoo-network" {
 
 
 data "aws_vpc" "vpc-selected" {
-   id = var.vpc_id
    filter {
       name = "tag:Name"
       values = ["Main"]
@@ -21,16 +20,7 @@ data "aws_vpc" "vpc-selected" {
 }
 
 
-data "aws_subnet" "subnet-pub"{
-   id = var.subnet_id
-}
-
-
 output "vpc_info" {
    value = aws_vpc.vpc-selected
 }
 
-output "subnet-info" {
-   value = aws_subnet.subnet-pub
-   description = " public subnet"
-}
