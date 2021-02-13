@@ -20,7 +20,7 @@ variable "mytags" {
       Author = string
       Version = number
    })
-   default {
+   default = {
       Author = "Gazali"
       Version = 12
    }
