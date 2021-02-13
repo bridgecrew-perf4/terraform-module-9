@@ -1,6 +1,6 @@
 
 data "aws_vpc" "vpc-selected" {
-   vpc_id = var.vpc_id
+   id = var.vpc_id
    filter {
       name = "tag:Name"
       values = ["Main"]
@@ -13,8 +13,7 @@ resource "aws_vpc" "vpc-1" {
 
 
 data "aws_subnet" "subnet-pub"{
-   subnet_id = var.subnet_id
-   cidr_block = var.cidr_block
+   id = var.subnet_name
 }
 
 resource "aws_subnet" "subnet-1" {
