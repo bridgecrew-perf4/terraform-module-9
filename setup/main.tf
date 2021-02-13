@@ -27,7 +27,7 @@ resource "aws_vpc" "vpc-1" {
 
 
 data "aws_subnet" "subnet-pub"{
-   id = var.subnet_name
+   id = var.subnet_id
 }
 
 resource "aws_subnet" "subnet-1" {
