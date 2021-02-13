@@ -1,6 +1,6 @@
 
 data "aws_vpc" "vpc-selected" {
-   id = var.vpc_id
+   default = true
    filter {
       name = "tag:Name"
       values = ["Main"]
