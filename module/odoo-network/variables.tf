@@ -1,4 +1,4 @@
-
+/* 
 variable "region" {
    type = string
    description = "add region to resources"
@@ -28,4 +28,4 @@ variable "my-tags" {
       Author = string
       Version = number
    })
-}
+} */

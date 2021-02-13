@@ -1,4 +1,4 @@
-
+/* 
 data "aws_vpc" "vpc-selected" {
    filter {
       name = "tag:Name"
@@ -15,4 +15,4 @@ data "aws_subnet" "subnet-pub"{
 
 resource "aws_subnet" "subnet-pub" {
    tags = var.my-tags
-}
+} */
