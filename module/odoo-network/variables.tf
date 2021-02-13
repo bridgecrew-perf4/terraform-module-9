@@ -1,8 +1,7 @@
-/* 
-variable "region" {
+/* variable "region" {
    type = string
    description = "add region to resources"
-}
+} */
 
 /* variable "vpc_id" {
    type = string
@@ -28,4 +27,4 @@ variable "my-tags" {
       Author = string
       Version = number
    })
-} */
+} 
