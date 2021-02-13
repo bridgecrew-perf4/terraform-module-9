@@ -1,8 +1,8 @@
 
 data "aws_vpc" "vpc-selected" {
    filter {
-      name = "tag:Name"
-      values = ["Main"]
+      name = "Name"
+      value = ["Main"]
    }
 }
 resource "aws_vpc" "vpc-selected" {
