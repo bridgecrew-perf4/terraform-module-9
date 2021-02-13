@@ -1,6 +1,6 @@
 
 
-my-tags = {
+mytags = {
    Author = "Gazali"
    Version = 12
 }

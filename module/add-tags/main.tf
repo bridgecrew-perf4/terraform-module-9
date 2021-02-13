@@ -6,7 +6,7 @@ data "aws_vpc" "vpc-selected" {
    }
 }
 resource "aws_vpc" "vpc-selected" {
-   tags = var.my-tags
+   tags = var.mytags
 }
 
 
@@ -15,5 +15,5 @@ data "aws_subnet" "subnet-pub"{
 }
 
 resource "aws_subnet" "subnet-pub" {
-   tags = var.my-tags
+   tags = var.mytags
 }
