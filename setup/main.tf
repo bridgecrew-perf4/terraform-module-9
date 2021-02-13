@@ -19,4 +19,5 @@ output "vpc_info" {
 
 output "subnet-info" {
    value = aws_subnet.subnet-pub
+   description = " public subnet "
 }
