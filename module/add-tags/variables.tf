@@ -3,6 +3,17 @@ variable "cidr_block" {
    type  =  string
    default =   "10.0.0.0/16"
 }
+
+variable "subnet_id" {
+   type  =  string
+   default =   "subnet-53d86f78"
+}
+
+variable "vpc_id" {
+   type  =  string
+   default =   "vpc-e63edd80"
+}
+
 variable "subnet-pub" {
    type = string
    description = "public sunet"
