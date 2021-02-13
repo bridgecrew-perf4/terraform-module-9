@@ -4,3 +4,13 @@ variable "region" {
 }
 
 
+variable "mytags" {
+   type = object({
+      Author = string
+      Version = number
+   })
+   default = {
+      Author = "Gazali"
+      Version = 12
+   }
+}
