@@ -4,4 +4,4 @@
 
 Author information
 ------
-Algazali Hamid [@gyzi/terraform-module](https://github.com/gyzi/terraform-module)
+Algazali Hamid [@gyzi/terraform-module](he)
