@@ -11,6 +11,8 @@ module "odoo-network" {
    source   =  "../module/odoo-network"
 } */
 
+variable vpc_id = {}
+variable sudnet_id = {}
 
 data "aws_vpc" "vpc-selected" {
    id = var.vpc_id
