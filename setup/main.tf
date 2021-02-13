@@ -18,13 +18,11 @@ data "aws_vpc" "vpc-selected" {
       name = "tag:Name"
       values = ["Main"]
    }
-   tags = var.mytags
 }
 
 
 data "aws_subnet" "subnet-pub"{
    id = var.subnet_id
-   tags = var.mytags
 }
 
 
