@@ -12,11 +12,6 @@ variable "subnet-pub" {
    description = "public sunet"
    default =   "10.0.100.0/24"
 }
-/* variable "subnet-priv" {
-   type = string
-   description = "private sunet"
-} */
-
 
 variable "my-tags" {
    type = object({

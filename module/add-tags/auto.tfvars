@@ -2,7 +2,7 @@
 
 var.my-tags = {
    Author = "Gazali"
-   Version = "12"
+   Version = 12
 }
 
 var.instnace-type = "t2.micro"
