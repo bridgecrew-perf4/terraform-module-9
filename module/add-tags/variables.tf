@@ -26,3 +26,13 @@ variable "subnet-priv" {
    default =   "10.0.10.0/24"
 }
 
+variable "mytags" {
+   type = object({
+      Author = string
+      Version = number
+   })
+   default = {
+      Author = "Gazali"
+      Version = 12
+   }
+}
