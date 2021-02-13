@@ -1,0 +1,9 @@
+
+variable "vpc-tags" {
+   type = object({
+      Author = string
+      Version = number
+   })
+}
+var.vpc-tags.Author = "Gazali"
+var.vpc-tags.Version = "12"
